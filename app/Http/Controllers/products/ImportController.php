@@ -53,17 +53,4 @@ class ImportController extends Controller
 
         return redirect()->route('imports.index')->with('success', 'Imported date updated successfully.');
     }
-
-    public function destroy(string $id)
-    {
-        $import = Import::find($id);
-
-        if (!$import) {
-            return redirect()->back()->with('error', 'Import record not found.');
-        }
-
-        $import->delete();
-
-        return redirect()->route('imports.index')->with('success', 'Import record deleted successfully.');
-    }
 }

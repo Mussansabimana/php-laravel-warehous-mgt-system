@@ -27,7 +27,7 @@ class ReportController extends Controller
             $furnitures = Furniture::all();
             $content = "Furniture Inventory Report\n\n";
             foreach ($furnitures as $furniture) {
-                $content .= "Name: {$furniture->furniture_name}, Owner: {$furniture->furniture_ouner}, Quantity: {$furniture->quantity}\n";
+                $content .= "Furniture Name: {$furniture->furniture_name}, Owner: {$furniture->furniture_ouner}, Quantity: {$furniture->quantity}\n";
             }
             $filename = 'furniture_report_' . now()->format('Ymd_His') . '.txt';
         } elseif ($request->report_type == "imports") {

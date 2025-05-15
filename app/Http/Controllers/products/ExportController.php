@@ -60,19 +60,4 @@ class ExportController extends Controller
         return redirect()->route('exports.index')->with('success', 'Exported date updated successfully.');
     }
 
-    /** 
-     * Remove the specified export from storage.
-     */
-    public function destroy(string $id)
-    {
-        $export = Export::find($id);
-
-        if (!$export) {
-            return redirect()->back()->with('error', 'Export record not found.');
-        }
-
-        $export->delete();
-
-        return redirect()->route('exports.index')->with('success', 'Export record deleted successfully.');
-    }
 }

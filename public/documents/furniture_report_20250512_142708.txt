@@ -1,7 +1,0 @@
-Furniture Inventory Report
-
-Name: Mussa, Owner: mizigo-cargo, Quantity: 0
-Name: mussa, Owner: John-furniture ltd, Quantity: 25
-Name: mussa, Owner: John-furniture ltd, Quantity: 8
-Name: dfghj, Owner: fghjk, Quantity: 88
-Name: mussa, Owner: mizigo-cargo, Quantity: 123456
