@@ -1,6 +1,6 @@
 <div id="importAlert"
-    class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm hidden">
-    <div class="bg-white/10 border border-white/20 rounded-xl p-6 w-full max-w-sm space-y-4">
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 hidden">
+    <div class="backdrop-blur-sm bg-slate-800 p-8 rounded-xl w-96 space-y-6 shadow-lg">
         <h3 class="text-lg font-semibold text-white">Import Furniture Record</h3>
         <p class="text-sm text-white/60">Confirm the imported date for this furniture item.</p>
 

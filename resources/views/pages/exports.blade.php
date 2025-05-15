@@ -41,7 +41,8 @@
                 <h2 class="text-xl font-semibold">Exports Management</h2>
                 <p class="text-sm text-white/60">All outgoing furniture shipments</p>
             </div>
-            <form action="{{ route('reports.store')}}" method="POST">
+            @if ($exports->count())
+                <form action="{{ route('reports.store')}}" method="POST">
                 @csrf
                 <input type="text" name="report_type" value="exports" class="hidden">
                 <button type="submit"
@@ -54,6 +55,7 @@
                 <span>Generate Report</span>
             </button>
             </form>
+            @endif
         </div>
 
         <!-- Table Container -->

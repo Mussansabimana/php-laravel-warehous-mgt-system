@@ -1,5 +1,5 @@
 <div id="exportModal" style="display: none;" class="fixed inset-0 bg-black/50 z-50 flex justify-center items-center">
-    <div class="backdrop-blur-sm bg-slate-800 p-8 rounded-xl w-96 space-y-6 shadow-lg">
+    <div class="bg-slate-800 p-8 rounded-xl w-96 space-y-6 shadow-lg">
         <h3 class="text-2xl font-semibold text-white">Export Furniture</h3>
 
         <!-- Form to export -->

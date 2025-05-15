@@ -81,7 +81,7 @@
                 </div>
                 <div>
                     <div class="text-sm font-medium">Manager</div>
-                    <div class="text-xs text-white/60">John Doe</div>
+                    <div class="text-xs text-white/60">{{ Auth::user()->name }}</div>
                 </div>
             </div>
         </div>

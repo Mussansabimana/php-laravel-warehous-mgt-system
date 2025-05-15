@@ -41,6 +41,7 @@
                 <h2 class="text-xl font-semibold">Furniture Inventory</h2>
                 <p class="text-sm text-white/60">All available furniture in warehouse</p>
             </div>
+            @if($furnitures->count())
             <form action="{{ route('reports.store')}}" method="POST">
                 @csrf
                 <input type="text" name="report_type" value="furniture" class="hidden">
@@ -54,6 +55,7 @@
                 <span>Generate Report</span>
             </button>
             </form>
+            @endif
         </div>
 
         <!-- Table Container -->

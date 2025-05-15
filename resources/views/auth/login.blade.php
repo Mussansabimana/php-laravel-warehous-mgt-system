@@ -39,14 +39,14 @@
                 <div>
                     <label for="username" class="block text-white/80 text-sm mb-1">Username</label>
                     <input id="username" name="name" type="text" required
-                        class="w-full px-4 py-2 rounded-lg bg-white/10 text-white border border-white/20 focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                        class="w-full px-4 py-2 rounded-lg bg-white/10 text-white border border-white/20 focus:ring-2 focus:ring-indigo-400 focus:bg-white/10 focus:outline-none"
                         placeholder="Enter Username">
                 </div>
 
                 <div>
                     <label for="password" class="block text-white/80 text-sm mb-1">Password</label>
                     <input id="password" name="password" type="password" required
-                        class="w-full px-4 py-2 rounded-lg bg-white/10 text-white border border-white/20 focus:ring-2 focus:ring-indigo-400 focus:outline-none"
+                        class="w-full px-4 py-2 rounded-lg bg-white/10 focus:bg-white/10 text-white border border-white/20 focus:ring-2 focus:ring-indigo-400 focus:outline-none"
                         placeholder="Enter Password">
                 </div>
 

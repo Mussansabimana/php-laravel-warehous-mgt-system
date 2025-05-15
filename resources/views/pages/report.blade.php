@@ -56,7 +56,7 @@
             <tbody class="divide-y divide-white/10">
                 @foreach ($files as $file)
                 <tr class="hover:bg-white/5 transition">
-                    <td class="p-4">{{ ucfirst(pathinfo($file, PATHINFO_FILENAME)) }} Report</td>
+                    <td class="p-4">{{ ucfirst(pathinfo($file, PATHINFO_FILENAME)) }}</td>
                     <td class="p-4">{{ date('Y-m-d H:i:s', File::lastModified($file)) }}</td>
                     <td class="p-4 flex justify-end space-x-2">
                         <!-- Download Button -->

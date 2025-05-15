@@ -1,6 +1,0 @@
-Furniture Import Report
-
-Furniture Name: mussa, Imported Date: 2025-05-12, Quantity: 8
-Furniture Name: mussa, Imported Date: 2025-05-04, Quantity: 29
-Furniture Name: Mussa, Imported Date: 2025-05-11, Quantity: 1
-Furniture Name: dfghj, Imported Date: 2025-05-10, Quantity: 88

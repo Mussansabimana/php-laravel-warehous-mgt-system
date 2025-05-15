@@ -1,0 +1,3 @@
+Furniture Inventory Report
+
+Furniture Name: Omega-table, Owner: mizigo-cargo, Quantity: 7
