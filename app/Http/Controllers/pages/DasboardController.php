@@ -11,7 +11,10 @@ class DasboardController extends Controller
 {
     public function index()
     {
-        $furnitureCount = Furniture::count();
+        $furnitureCount = Furniture::with('imports')
+            ->where('quantity', '!=', 0)
+            ->orderBy('created_at', 'desc')
+            ->count();
         $importCount = Import::count();
         $exportCount = Export::count();
 

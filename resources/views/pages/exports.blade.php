@@ -101,7 +101,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M8 7V3m8 4V3m-9 9h10m-12 8h14a2 2 0 002-2V7a2 2 0 00-2-2H4a2 2 0 00-2 2v11a2 2 0 002 2z" />
                                     </svg>
-                                    <span class="text-sm">Change Date</span>
+                                    <span class="text-sm">Change Exported Date</span>
                                 </button>
                             </td>
                         </tr>
