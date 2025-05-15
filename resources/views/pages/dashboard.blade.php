@@ -37,7 +37,7 @@
 
         <!-- Glassmorphism Header -->
         <div class="backdrop-blur-sm bg-white/5 p-6 rounded-xl border border-white/10 shadow-lg">
-            <h1 class="text-2xl font-bold mb-2">Welcome back, <span class="text-indigo-400">John</span>!</h1>
+            <h1 class="text-2xl font-bold mb-2">Welcome back, <span class="text-indigo-400">{{ Auth::user()->name}}</span>!</h1>
             <p class="text-white/80">Here's what's happening with your cargo operations today.</p>
         </div>
 
